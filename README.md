@@ -3,6 +3,15 @@
 **Author:** Richmond Asamoah Nkrumah  
 **Region:** eu-west-1 | **Account:** 496411573400
 
+
+## Problem Statement
+At 02:14 UTC, NexaCore's billing alarm fired — 6 unauthorized EC2 instances (c5.4xlarge) had been launched in ap-southeast-1 by an unknown actor, costing $340 in 3 hours. GuardDuty flagged the finding as `UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration`. The compromised credential belonged to `ops-user-2`, likely leaked via a public GitHub repository.
+
+**Mission:** Investigate the full attack chain using CloudTrail and Athena, contain the damage immediately, and build an automated detection and response system to prevent future incidents.
+
+**Assigned by:** Daniel Osei-Mensah — Head of Cloud Infrastructure & Security, NexaCore Technologies  
+**Urgency:** Critical — Suspected account compromise in progress
+
 ---
 
 ## Overview
