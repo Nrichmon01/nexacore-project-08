@@ -79,4 +79,4 @@ This project implements a fully automated cloud security incident response syste
 ---
 
 ## Incident Report
-See `docs/incident_report_001.md` for the full incident report from the test execution.
+See [docs/incident_report_001.md](docs/incident_report_001.md) for the full incident report from the test execution.
